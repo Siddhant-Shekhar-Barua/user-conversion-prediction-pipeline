@@ -39,7 +39,7 @@ Instead of using destructive resampling or synthetic generation techniques (like
 
 | Model Framework | Configuration Highlights | Validation Macro F1 Score |
 | :--- | :--- | :--- |
-| **Logistic Regression** | `max_iter=1000`, Balanced Weights | 0.5417 |
+| **Logistic Regression** | `max_iter=1000`, Balanced Weights | 0.7017 |
 | **Random Forest** | `n_estimators=300`, `max_depth=10`, Balanced | 0.5477 |
 | **LightGBM (Champion)** | `n_estimators=500`, `num_leaves=15`, `is_unbalance=True` | **0.6264** |
 
